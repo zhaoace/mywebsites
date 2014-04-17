@@ -139,14 +139,14 @@ h6 {
     margin:0 auto;
     padding:41px 10px 39px;
     overflow:hidden;
-    border-top:2px solid #8dc03d;
+    /* border-top:2px solid #000000; */
 }
 /* logo */
 .logo {
     float:left;
     background:url(../images/logo.png) no-repeat;
-    width:174px;
-    height:26px;
+    width:214px;
+    height:34px;
     overflow:hidden;
     text-indent:-9999px;
 }
@@ -204,8 +204,8 @@ h6 {
 .social .rss:hover {background:url(../images/rss-hover.png) no-repeat;}
 /* nav-box */
 .nav-box {
-    background:#343434;
-    border-bottom: 2px solid #8dc03d;
+    background:#085c45;
+    border-bottom: 2px solid #b4914a;
     padding:18px 0 0;
     text-transform:uppercase;
     z-index:1;
@@ -1488,8 +1488,16 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     width:25%;
     float:left;
 }
+.grid-cols .col30 {
+    width:30%;
+    float:left;
+}
 .grid-cols .col33 {
     width:33%;
+    float:left;
+}
+.grid-cols .col40 {
+    width:40%;
     float:left;
 }
 .grid-cols .col50 {
@@ -2370,7 +2378,7 @@ address {
     padding:19px 10px;
 }
 .add-block .by {
-    float:right;
+    text-align:center;
     color:#4a4949;
 }
 .add-block .by a {color:#888;}
@@ -3066,4 +3074,12 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     width:21px;
     margin:0 0 0 -20px;
     vertical-align:top;
+}
+
+
+.ico-image {
+    overflow:hidden;
+    float:left;
+    margin:3px 20px 0 0;
+    width:60px; height:60px;
 }
