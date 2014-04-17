@@ -1002,6 +1002,9 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
 }
+.content-tilte-bg {
+    background:#F2F2F1;
+}
 .page-title {
     width: 100%;
     margin: 0 auto;
@@ -1463,6 +1466,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .main-container {
     padding:4px 19px;
 }
+.main-container-border-bottom { border-bottom:1px solid #f0f0f0; }
 .main-container h1 {margin:0 0 8px;}
 .main-container h2 {margin:0 0 6px;}
 .main-container h3 {margin:0 0 7px;}
@@ -1470,6 +1474,8 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .main-container h5 {margin:0 0 10px;}
 .main-container h6 {margin:0 0 10px;}
 .main-container p {margin:0 0 15px;}
+
+
 /* heading */
 .heading {
     padding:10px 0 12px;
@@ -1507,6 +1513,9 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .grid-cols .col67 {
     width:67%;
     float:left;
+}
+.grid-cols li{
+    font-size: 7px;
 }
 /* blockquote */
 .blockquote {
@@ -3083,3 +3092,7 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     margin:3px 20px 0 0;
     width:60px; height:60px;
 }
+
+
+
+.doing { background: #1B94B4;}
