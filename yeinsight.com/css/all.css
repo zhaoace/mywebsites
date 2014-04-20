@@ -1514,9 +1514,6 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     width:67%;
     float:left;
 }
-.grid-cols li{
-    font-size: 7px;
-}
 /* blockquote */
 .blockquote {
     color:#222;
