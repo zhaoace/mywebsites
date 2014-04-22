@@ -130,14 +130,14 @@ h6 {
     width:100%;
     position:relative;
     z-index:12;
-    background:#fff;
+    background:#f2f2f1;
     border-bottom:1px solid #e5e5e5;
     box-shadow: 0 0 3px rgba(0,0,0,0.1);
 }
 #header .section {
     max-width:940px;
     margin:0 auto;
-    padding:41px 10px 39px;
+    padding:30px 10px 30px;
     overflow:hidden;
     /* border-top:2px solid #000000; */
 }
@@ -210,7 +210,7 @@ h6 {
     text-transform:uppercase;
     z-index:1;
 }
-.inner .nav-box {border-bottom-color:#f0f0f0;}
+.inner .nav-box {border-bottom-color:#f2f2f1;}
 .nav-box:after {
     content:"";
     display:block;
@@ -245,7 +245,7 @@ h6 {
 .nav-box > ul > li.active > a,
 .nav-box > ul > li.hover > a {
     text-decoration:none;
-    color:#fffefe;
+    color:#b4914a;
     transition: 300ms all linear;
     -o-transition: 300ms all linear;
     -moz-transition: 300ms all linear;
@@ -271,7 +271,7 @@ h6 {
 }
 .nav-box > ul li.hover ul {display:block;}
 .nav-box > ul li.hover ul ul {display:none;}
-.nav-box > ul li.hover ul li:hover > a {color:#fff;background:#8dc03d;}
+.nav-box > ul li.hover ul li:hover > a {color:#b4914a;background:#fff;}
 .nav-box > ul li.hover ul li:hover ul {display:block;}
 .nav-box > ul ul li {
     vertical-align:top;
@@ -476,7 +476,7 @@ h6 {
     padding:32px 0 0;
 }
 .boxes .title-box {
-    padding:0 10px 32px;
+    padding:0 10px; /* 32px;*/
     text-align:center;
     max-width:720px;
     margin:0 auto;
@@ -2281,7 +2281,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     width:25%;
 }*/
 /* social2 */
-.social2 {overflow:hidden;}
+.social2 {overflow:hidden;padding-top: 10px;}
 .social2 li {
     float:left;
     margin:0 0 0 5px;
