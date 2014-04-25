@@ -155,10 +155,6 @@ h6 {
     height:100%;
 }
 
-.yearpng {
-    background:url(../images/year.png) no-repeat;
-    overflow:hidden;
-}
 /* contact-box */
 .contact-box {
     float:right;
@@ -1522,34 +1518,47 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .main-container h6 {margin:0 0 10px;}
 .main-container p {margin:0 0 15px;}
 
-.main-container article{
-    margin: 30px 30px 30px 30px;
+.main-container .year img{
+   display:block;
+   margin:0 auto;
+   padding-bottom: 25px;
 }
-.main-container article .small{
+.main-container article {
     margin: 30px 30px 30px 30px;
-    font-size: 25px;
 }
 
+
 .map {
-    background:url(../images/map.png) no-repeat;
+    background:url(../images/map_flag.png) ;
+    width: 100%;
     overflow:hidden;
-    width:1068px;
-    height:300px;
-    padding:30px 30px 0 30px;
+    height:250px;
+    background-position: center;
+    margin-bottom: 0;
 }
 .map p {
     margin:15px  0 ;
 }
 
 .main-container-dark {
-    padding:24px 0 24px;
+    /*padding:24px 0 24px;*/
     background: #f1f1f1;
     text-align: center;
 
 }
+.main-container-dark img {
+    padding-top: 24px;
+
+}
+.main-container-dark h1 {
+    padding-top: 44px;
+    text-align: center;
+}
 .main-container-dark p{
+
     max-width:720px;
     margin:0 auto;
+    padding-bottom: 35px;
 }
 
 
@@ -3173,6 +3182,15 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     float:left;
     margin:3px 20px 0 0;
     width:60px; height:60px;
+}
+
+
+
+.ico-image-big {
+    overflow:hidden;
+    float:left;
+    margin:3px 20px 0 0;
+    width:98px; height:98px;
 }
 
 
