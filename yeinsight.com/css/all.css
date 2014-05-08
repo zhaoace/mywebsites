@@ -3226,3 +3226,8 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 }
 
 
+.brand-research-case {
+    background-image: url(../images/brand_research_case.png) ;
+    background-position: center -1px;
+
+}
