@@ -258,6 +258,7 @@ h6 {
     padding:0 15px 0 0;
     background:url(../images/drop-arrow.png) no-repeat 100% 8px;
 }
+
 .nav-box > ul ul {
     position:absolute;
     top:39px;
@@ -280,6 +281,13 @@ h6 {
     vertical-align:top;
     position:relative;
     border-top:1px solid #e5e5e5;
+}
+.nav-box > ul ul li.sentence {
+    position:relative;
+    padding:12px 22px 13px;
+    display:block;
+    color: #000;
+    font-style: italic;
 }
 .nav-box > ul ul a {
     padding:12px 22px 13px;
@@ -1055,12 +1063,16 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
+    font:300 16px/18px "Oxygen", Arial, Helvetica, sans-serif;
 }
 .page-title h2 {
     float: left;
     font-size: 16px;
     margin: 0;
     padding: 0;
+    font:700 22px/27px "Oxygen", Arial, Helvetica, sans-serif;
+    color: #8dc03d;
+
 }
 /* breadcrumbs */
 /*.breadcrumbs {
@@ -3227,7 +3239,7 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 
 
 .brand-research-case {
-    background-image: url(../images/brand_research_case.png) ;
+    background-image: url(../images/branding_research_case.png) ;
     background-position: center -1px;
 
 }
