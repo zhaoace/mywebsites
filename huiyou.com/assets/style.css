@@ -266,7 +266,7 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.428571429;
     color: #333333;
@@ -2332,10 +2332,10 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
     transition: height 0.35s ease
 }
 
-@font-face {
-    font-family:'Glyphicons Halflings';src:url(../assets/twitter/glyphicons-halflings-regular-7da51195ee1006169d8a364d8deceb66.eot);src:url(../assets/twitter/glyphicons-halflings-regular-7da51195ee1006169d8a364d8deceb66.eot?#iefix) format("embedded-opentype"),url(../assets/twitter/glyphicons-halflings-regular-7d47a9edad93272cac476aa066c79089.woff) format("woff"),url(../assets/twitter/glyphicons-halflings-regular-fcbfc798de728d6bba563a9c261ea98f.ttf) format("truetype"),url(../assets/twitter/glyphicons-halflings-regular-f12b5bfd39f0f612a6afe34d964ab188.svg#glyphicons_halflingsregular) format("svg")
+/*@font-face {
+font-family:'Glyphicons Halflings';src:url(../assets/twitter/glyphicons-halflings-regular-7da51195ee1006169d8a364d8deceb66.eot);src:url(../assets/twitter/glyphicons-halflings-regular-7da51195ee1006169d8a364d8deceb66.eot?#iefix) format("embedded-opentype"),url(../assets/twitter/glyphicons-halflings-regular-7d47a9edad93272cac476aa066c79089.woff) format("woff"),url(../assets/twitter/glyphicons-halflings-regular-fcbfc798de728d6bba563a9c261ea98f.ttf) format("truetype"),url(../assets/twitter/glyphicons-halflings-regular-f12b5bfd39f0f612a6afe34d964ab188.svg#glyphicons_halflingsregular) format("svg")
 }
-
+*/
 .glyphicon {
     position: relative;
     top: 1px;
@@ -2888,12 +2888,16 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
     content: "\e132"
 }
 
+#going-down {
+    width: 25px;
+    height: 25px;
+}
 .glyphicon-circle-arrow-up:before {
-    content: "\e133"
+    /*content: url("../images/arrow-down.png");*/
 }
 
 .glyphicon-circle-arrow-down:before {
-    content: "\e134"
+/*content: "\e134"*/
 }
 
 .glyphicon-globe:before {
@@ -6316,11 +6320,19 @@ body {
     #home-cover .home-cover-container .right-content #home-tagline {
         font-size: 36px !important
     }
+    #home-cover .home-cover-container .right-content .home-login {
+        margin-bottom: 50px;
+        width: 476px;
+    }
 }
 
 @media all and (max-width: 980px) {
     #home-cover .home-cover-container .right-content #home-tagline {
         font-size: 32px !important
+    }
+    #home-cover .home-cover-container .right-content .home-login {
+        margin-bottom: 50px;
+        width: 288px;
     }
 }
 
@@ -6367,16 +6379,16 @@ body {
 
 #home-cover .home-cover-container .hand-image {
     position: absolute;
-    left: 50px;
-    bottom: 0;
+    left: 6%;
+    bottom: 5%;
     width: 537.5999999999999px;
     height: 691.5999999999999px
 }
 
 #home-cover .home-cover-container .right-content {
     position: absolute;
-    left: 625px;
-    top: 150px
+    bottom: 21%;
+    left: 50%;
 }
 
 #home-cover .home-cover-container .right-content #home-logo,#home-cover .home-cover-container .right-content #home-tagline {
@@ -6391,15 +6403,18 @@ body {
     margin-bottom: 20px
 }
 
+
 #home-cover .home-cover-container .right-content #home-tagline {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    padding-top:11px;
 }
 
 #home-cover .home-cover-container .right-content .home-login {
     margin-bottom: 50px;
-    width: 288px
+    /*width: 288px*/
+    width: 476px
 }
 
 #home-cover .home-cover-container .right-content .foot-line {
@@ -6491,7 +6506,7 @@ body {
 
 .home-how-it-works {
     border-top: 1px solid #dddddd;
-    padding: 40px 0 60px
+    padding: 40px 0 0
 }
 
 .home-how-it-works .how-icons {
@@ -6501,7 +6516,16 @@ body {
 }
 
 .home-how-it-works .how-title {
-    margin-bottom: 40px
+    margin-bottom: 40px;
+}
+.home-how-it-works .how-title h1{
+    color:#024959;
+}
+
+.home-how-it-works .how-title p{
+    font-size: 15px;
+    color:#adadae;
+    margin-bottom: 8px;
 }
 
 .home-how-it-works .how-step {
@@ -6509,17 +6533,22 @@ body {
     padding: 0 20px;
     width: 242.0px
 }
-
+/*
 .home-how-it-works .how-step:first-child {
     border-right: 1px solid #dddddd;
     padding-left: 0
 }
 
+.home-how-it-works .how-step:not(:first-child) {
+    border-left: 1px solid #dddddd;
+    padding-right: 0
+}*/
+/*
 .home-how-it-works .how-step:last-child {
     border-left: 1px solid #dddddd;
     padding-right: 0
 }
-
+*/
 .home-how-it-works .how-step .glyphicon {
     font-size: 43px;
     display: block;
@@ -6528,69 +6557,76 @@ body {
 
 .home-how-it-works .how-step h4 {
     margin-bottom: 15px;
-    font-size: 24px
+    font-size: 20px
 }
 
 .home-how-it-works .how-step p {
-    font-size: 16px
+    font-size: 15px;
+    line-height: 28px;
+    color:#adadae;
 }
 
 .home-our-benefits {
-    background: #90f3f3 ;
-    height: 300px;
+    /*background: #90f3f3 ;*/
+    /*height: 300px;*/
     margin:0 auto;
-}
-.home-our-benefits p{
+    height: 22.22vw;
+    text-shadow: 0px 2px 1px rgba(0,0,0,0.6);
 
+}
+.home-our-benefits .op{
+    background-color: #024959;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    width: 33.3333vw;
+    height: 22.2222vw;
+}
+.home-our-benefits .op:hover{
+    opacity: 0.45;
+    filter: alpha(opacity=45);
 }
 .home-our-benefits .our-benefit1{
     float: left;
+    background-image: url("../images/goodpoint1.jpg");
+    width: 33.3333vw;
+    height: 22.2222vw;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: #ff0 ;
-    background-image: url("../images/goodpoint1.jpg");
-    border: 5px;
-    height: 400px;
-    border-style: solid;
-    border-color: #000;
-    width: 33.334%;
 }
 .home-our-benefits .our-benefit2{
     float: left;
+    background-image: url("../images/goodpoint2.jpg");
+    width: 33.3333vw;
+    height: 22.2222vw;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: #ff0 ;
-    background-image: url("../images/goodpoint2.jpg");
-    border: 5px;
-    height: 400px;
-    border-style: solid;
-    border-color: #000;
-    width: 33.334%;
 }
+
 .home-our-benefits .our-benefit3{
     float: left;
+    background-color: #000;
+    background-image: url("../images/goodpoint3.jpg");
+    width: 33.3333vw;
+    height: 22.2222vw;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background-position: 50% 50%;
-    /*background-position: center center;*/
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: #ff0 ;
-
-    background-image: url("../images/goodpoint3.jpg");
-    border: 5px;
-    height: 400px;
-    border-style: solid;
-    border-color: #000;
-    width: 33.334%;
 }
 
+.home-our-benefits p{
+    font-size: 26px;
+    color:#FFFFFF;
+    position: relative;
+    top:-12.5vw;
+}
 
 .home-sample-rec {
     -moz-background-size: cover;
@@ -6603,7 +6639,6 @@ body {
     height: 400px;
     color: white;
     padding: 20px 0 50px;
-    margin-top:30px;
 }
 
 .home-sample-rec h1 {
@@ -6611,9 +6646,9 @@ body {
 }
 
 .home-sample-rec .home-bot-caption {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 25px;
-    padding-top: 70px;
+
 }
 
 .home-sample-rec .home-login {
@@ -6621,31 +6656,33 @@ body {
     /*width: 320px*/
     overflow: hidden;
 }
-.home-sample-rec .foot-line {
+ .foot-line {
     margin: 0 auto;
-    padding-top: 20px;
+    position: relative;
+    top: 15px;
+    padding-bottom: 50px;
     height: 8px;
-    width: 150px;
+    width: 230px;
     background: url("../images/line.png") no-repeat;
 }
 
-.home-sample-rec .home-login .download-googleplay{
+.home-login .download-googleplay{
     float:left;
     background: url("../images/google_play.png") no-repeat;
     width: 231px;
     height: 65px;
  }
- .home-sample-rec .home-login .download-googleplay:hover{
+ .home-login .download-googleplay:hover{
     background: url("../images/google_play_hover.png") no-repeat;
 
  }
-.home-sample-rec .home-login .download-appstore{
+.home-login .download-appstore{
     float:right;
     background: url("../images/app_store.png") no-repeat;
     width: 231px;
     height: 65px;
 }
-.home-sample-rec .home-login .download-appstore:hover{
+.home-login .download-appstore:hover{
     background: url("../images/app_store_hover.png") no-repeat;
 }
 .home-sample-rec .footer-comingsoon {
