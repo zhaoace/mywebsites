@@ -1104,7 +1104,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .breadcrumbs a {
     text-decoration:none;
     color:#848484;
-    font-size:10px;
+    font-size:12px;
 }
 .breadcrumbs a:hover {
     text-decoration:none;
@@ -1113,7 +1113,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .breadcrumbs li {
     float:left;
     padding:0 6px 0 0px;
-    font-size:10px;
+    font-size:12px;
 /*  background:url(../images/separator3.png) no-repeat 0 6px;*/
 }
 .breadcrumbs li:first-child {
