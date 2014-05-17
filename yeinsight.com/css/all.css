@@ -590,7 +590,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     float:right;
     vertical-align:top;
     color:#b4914b;
-    font:400 14px/14px 'oxygen', Arial, Helvetica, sans-serif;
+    font:400 14px/14px Oxygen, Arial, Helvetica, sans-serif;
 
     line-height:13px;
     text-decoration:none;
@@ -1047,7 +1047,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 /* content-panel */
 .content-panel {
     height:1%;
-    margin:0 0 23px;
+    margin:0 0 0px;
     overflow:hidden;
     padding:14px 20px;
     background:#fff;
@@ -1523,26 +1523,29 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 .portfolio-box h5 {margin:0 0 11px;}
 .main-container {
-    padding:4px 19px;
+    padding:20px 19px;
     font:300 "Oxygen", Arial, Helvetica, sans-serif;
 }
-.main-container-border-bottom { border-bottom:1px solid #f0f0f0; }
+.main-container-border-bottom {
+    border-bottom:1px solid #f0f0f0;
+
+}
 .main-container h1 {
     margin:0 0 8px;
-    font:400 22px/27px 'oxygen', Arial, Helvetica, sans-serif;
+    font:400 22px/27px Oxygen, Arial, Helvetica, sans-serif;
 
 }
 .main-container h2 {margin:0 0 6px;}
 .main-container h3 {
     margin:0 0 7px;
-    font:300 17px/23px 'oxygen', Arial, Helvetica, sans-serif;
+    font:300 17px/23px Oxygen, Arial, Helvetica, sans-serif;
 }
 .main-container h4 {margin:0 0 12px;}
 .main-container h5 {margin:0 0 10px;}
 .main-container h6 {margin:0 0 10px;}
 .main-container p {
     margin:0 0 15px;
-    font:300 14px/20px 'oxygen', Arial, Helvetica, sans-serif;
+    font:300 14px/22px Oxygen, Arial, Helvetica, sans-serif;
 }
 
 .main-container .year img{
@@ -1550,9 +1553,9 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
    margin:0 auto;
    padding-bottom: 25px;
 }
-.main-container article {
+/*.main-container article {
     margin: 30px 30px 30px 30px;
-}
+}*/
 
 .main-container .under-year{
     padding: 0 80px 0 80px;
@@ -1665,6 +1668,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     counter-reset:item;
     padding:0 0 15px 10px;
     line-height:23px;
+    font-family:  Oxygen, Arial;
 }
 .num ul {
     margin:0 0 0 -2px;
@@ -1681,6 +1685,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .disc {
     padding:0 0 15px 10px;
     line-height:23px;
+    font-family:  Oxygen, Arial;
 }
 .disc li {
     padding:0 0 0 16px;
@@ -1691,6 +1696,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .check {
     padding:0 0 15px 10px;
     line-height:23px;
+    font-family:  Oxygen, Arial;
 }
 .check li {
     padding:0 0 0 20px;
@@ -3243,4 +3249,11 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     background-image: url(../images/branding_research_case.png) ;
     background-position: center -1px;
 
+}
+.margin-all-30 {
+    margin: 30px 30px 30px 30px ;
+}
+#clothing-industry {
+    width: 70%;
+    margin: 0 0 0 50px;
 }
