@@ -3257,3 +3257,8 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     width: 70%;
     margin: 0 0 0 50px;
 }
+
+.learn-more {
+    float: right;
+    margin-right: 20px;
+}
