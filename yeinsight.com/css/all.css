@@ -1067,11 +1067,12 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 .page-title h2 {
     float: left;
-    font-size: 16px;
     margin: 0;
     padding: 0;
-    font:700 22px/27px "Oxygen", Arial, Helvetica, sans-serif;
-    color: #8dc03d;
+    font:700 18px/18px "Oxygen", Arial, Helvetica, sans-serif;
+    color: #015f47;
+    position: absolute;
+    top:20px;
 
 }
 /* breadcrumbs */
