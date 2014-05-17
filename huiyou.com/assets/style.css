@@ -2889,8 +2889,8 @@ font-family:'Glyphicons Halflings';src:url(../assets/twitter/glyphicons-halfling
 }
 
 #going-down {
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 14px;
 }
 .glyphicon-circle-arrow-up:before {
     /*content: url("../images/arrow-down.png");*/
@@ -6444,7 +6444,7 @@ body {
 
 #home-cover .home-more .text {
     font-size: 16px;
-    margin-bottom: 10px
+    margin-bottom: 0px
 }
 
 #home-cover .home-more .glyphicon {
