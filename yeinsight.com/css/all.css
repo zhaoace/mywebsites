@@ -3262,3 +3262,7 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     float: right;
     margin-right: 20px;
 }
+
+.home-title {
+    margin-left: -25px;
+}
