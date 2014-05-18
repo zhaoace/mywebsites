@@ -85,11 +85,11 @@ form,fieldset{
 }
 h1 {
     color:#222;
-    font:300 30px/36px 'Oxygen', Arial, Helvetica, sans-serif;
+    font:400 30px/36px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 h2 {
     color:#222;
-    font:300 24px/36px 'Oxygen', Arial, Helvetica, sans-serif;
+    font:400 24px/36px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 h3 {
     color:#222;
@@ -97,15 +97,15 @@ h3 {
 }
 h4 {
     color:#222;
-    font:300 16px/18px 'Oxygen', Arial, Helvetica, sans-serif;
+    font:400 16px/18px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 h5 {
     color:#222;
-    font:300 14px/18px 'Oxygen', Arial, Helvetica, sans-serif;
+    font:400 14px/18px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 h6 {
     color:#222;
-    font:300 12px/18px 'Oxygen', Arial, Helvetica, sans-serif;
+    font:400 12px/18px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 /* wrapper */
 #wrapper {
@@ -481,9 +481,14 @@ h6 {
     margin:0 auto;
     padding:0 0 0;
 }
+.holder2 {
+    max-width:980px;
+    margin:0 auto;
+    padding:0 0 0 ;
+}
 .boxes .holder {
     max-width:940px;
-    margin:0 auto;
+    margin:0 auto 100px;
     padding:32px 0 0;
 }
 .boxes .title-box {
@@ -1531,7 +1536,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 .main-container h1 {
     margin:0 0 8px;
-    font:400 22px/27px Oxygen, Arial, Helvetica, sans-serif;
+    font:400 22px/30px Oxygen, Arial, Helvetica, sans-serif;
 }
 .main-container h2 {margin:0 0 6px;}
 .main-container h3 {
@@ -1551,9 +1556,6 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
    margin:0 auto;
    padding-bottom: 25px;
 }
-/*.main-container article {
-    margin: 30px 30px 30px 30px;
-}*/
 
 .main-container .under-year{
     padding: 0 80px 0 80px;
@@ -1590,27 +1592,27 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     padding:50px 0 30px 0;
 }
 
-.main-container table {
+#understand-your-industry table {
     font-size: 12px;
     margin: 20px 0;
 }
 
-.main-container table tr{
+#understand-your-industry table tr{
     border:#cccccc 1px solid;
     padding: 6px;
 }
-.main-container table tr td {
+#understand-your-industry table tr td {
     border:#cccccc 1px solid;
     padding: 6px;
 }
-.main-container table tr th{
+#understand-your-industry table tr th{
     vertical-align: middle;
     border:#cccccc 1px solid;
     padding: 6px;
 }
 
 
-.main-container table tr.tr-head {
+#understand-your-industry table tr.tr-head {
     font-size: 14px;
     background-color: #b2904b;
     color: #FFFFFF;
@@ -3271,35 +3273,40 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     text-align: center;
 }
 
+.industry-bg {
+    background-position: center center;
+    background-size: 100%;
+}
 
 .bg-3c-it {
     background-image: url(../images/bg_3c_it.jpg );
-    background-position: center center;
 }
 .bg-automobile {
     background-image: url(../images/bg_automobile.jpg );
-    background-position: center center;
 }
 .bg-branding-research {
-    background-image: url(../images/bg_branding_research.png) ;
-    background-position: center center;
+    background-image: url(../images/bg_branding_research.jpg) ;
 }
 .bg-clothing {
     background-image: url(../images/bg_clothing.jpg );
-    background-position: center center;
 }
 .bg-cosmetics {
     background-image: url(../images/bg_cosmetics.jpg );
-    background-position: center center;
 }
 .bg-fmcg {
     background-image: url(../images/bg_fmcg.jpg );
-    background-position: center center;
 }
 .bg-luxury {
     background-image: url(../images/bg_luxury.jpg );
-    background-position: center center;
 }
+.bg-understand-industry {
+    background-image: url(../images/bg_understand_industry.jpg );
+}
+
+.bg-understand-cunsumers {
+    background-image: url(../images/bg_understand_consumers.jpg );
+}
+
 #clothing-industry {
     width: 70%;
     margin: 0 0 0 50px;
@@ -3314,8 +3321,56 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     margin-left: -25px;
 }
 
-
-
 .profession-solution .text-box{
     padding: 20px;
 }
+
+
+.branding-resarch {}
+
+.branding-resarch article{
+    padding:0 10px 0 0 ;
+}
+
+.branding-resarch .module-box{
+    background: #FF0 url() 0 0 no-repeat;
+    min-width:980px;
+    margin-right: 10px;
+
+}
+
+.branding-resarch .module{
+    background: #f2f2f2 url() 0 0 no-repeat;
+    margin:  0 0 0 12px;
+    padding:  15px 20px 0 20px;
+    height:350px;
+
+}
+
+.branding-resarch .module-bottom{
+    background: #b2904b url() 0 0 no-repeat;
+    margin:  0 0 30px 12px;
+    text-align: center;
+    height: 60px;
+    color: #FFFFFF;
+}
+
+.branding-resarch .module-bottom p.p1{
+    position: relative;
+    bottom: -20px;
+}
+.branding-resarch .module-bottom p.p2{
+    position: relative;
+    bottom: -10px;
+}
+
+
+
+.numb {
+    overflow:hidden;
+    float:left;
+    /*margin:3px 20px 0 0;*/
+    width:60px;
+    height:80px;
+}
+
