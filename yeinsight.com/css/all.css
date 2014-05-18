@@ -1571,30 +1571,25 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     background-position: center -130px;
     margin-bottom: 0;
 }
-.map p {
-    margin:12px  0 ;
+
+
+.map h1 {
+    margin: 48px 0 0 ;
 }
 
-.main-container-dark {
+.map p {
+    margin:12px  0 0 ;
+}
+
+.dark{
+    padding: 0;
     background: #f1f1f1;
 }
-.main-container-dark img {
-    padding-top: 24px;
-}
-.main-container-dark h1 {
-    padding-top: 50px;
-    text-align: left;
-    font:400 22px/27px Oxygen, Arial, Helvetica, sans-serif;
-}
-.main-container-dark p{
-    max-width:720px;
-    /*margin:0 auto;*/
-    padding-top: 0px;
-    padding-bottom: 50px;
-    text-align: left;
-    font:300 14px/20px 'Oxygen', Arial, Helvetica, sans-serif;
-}
 
+
+.dark .counters {
+    padding:50px 0 30px 0;
+}
 
 
 
