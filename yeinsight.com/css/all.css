@@ -54,7 +54,7 @@ figure {
 html {background:#fff;}
 body {
     margin:0;
-    font:13px/21px Arial, Helvetica, sans-serif;
+    font:14px/21px Arial, Helvetica, sans-serif;
     color:#666;
     min-width:320px;
     background:#fbfbfb;
@@ -1523,12 +1523,11 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 .portfolio-box h5 {margin:0 0 11px;}
 .main-container {
-    padding:20px 19px;
+    padding:40px 19px 15px 0;
     font:300 "Oxygen", Arial, Helvetica, sans-serif;
 }
 .main-container-border-bottom {
     border-bottom:1px solid #f0f0f0;
-
 }
 .main-container h1 {
     margin:0 0 8px;
@@ -1544,7 +1543,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .main-container h6 {margin:0 0 10px;}
 .main-container p {
     margin:0 0 15px;
-    font:300 14px/22px Oxygen, Arial, Helvetica, sans-serif;
+    font:400 14px/22px Oxygen, Arial, Helvetica, sans-serif;
 }
 
 .main-container .year img{
@@ -1661,7 +1660,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .num {
     counter-reset:item;
     padding:0 0 15px 10px;
-    line-height:23px;
+    line-height:22px;
     font-family:  Oxygen, Arial;
 }
 .num ul {
@@ -1678,7 +1677,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 /* disc */
 .disc {
     padding:0 0 15px 10px;
-    line-height:23px;
+    line-height:22px;
     font-family:  Oxygen, Arial;
 }
 .disc li {
@@ -1689,7 +1688,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 /* check */
 .check {
     padding:0 0 15px 10px;
-    line-height:23px;
+    line-height:22px;
     font-family:  Oxygen, Arial;
 }
 .check li {
@@ -2765,7 +2764,7 @@ iframe.contact-page-2 {
     z-index:2;
 }
 @media only screen and (max-width: 933px){
-    .caption.slide_button.sfb a.btn{font-size:13px;line-height:35px;}
+    .caption.slide_button.sfb a.btn{font-size:1px;line-height:35px;}
 
     .fullwidthbanner-container .caption{
         padding:0 20px !important;
@@ -3259,4 +3258,10 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 
 .home-title {
     margin-left: -25px;
+}
+
+
+
+.profession-solution .text-box{
+    padding: 20px;
 }
