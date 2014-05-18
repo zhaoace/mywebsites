@@ -3414,6 +3414,13 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     margin-bottom: 30px;
 }
 
+.profession-solution-image-container {
+    /*width: 80%;*/
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
 .contact-cards {
     overflow: hidden;
     margin-top:15px;
