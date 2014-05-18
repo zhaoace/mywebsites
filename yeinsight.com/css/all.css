@@ -1536,7 +1536,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .main-container h2 {margin:0 0 6px;}
 .main-container h3 {
     margin:0 0 7px;
-    font:300 17px/23px Oxygen, Arial, Helvetica, sans-serif;
+    font:400 18px/23px Oxygen, Arial, Helvetica, sans-serif;
 }
 .main-container h4 {margin:0 0 12px;}
 .main-container h5 {margin:0 0 10px;}
@@ -3262,7 +3262,7 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 
 .counter-item p{
     color: #b4914b;
-    font:300 18px/18px 'Oxygen', Arial, Helvetica, sans-serif;
+    font:400 18px/18px 'Oxygen', Arial, Helvetica, sans-serif;
     text-align: center;
 }
 .timer {
