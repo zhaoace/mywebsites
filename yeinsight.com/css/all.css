@@ -1590,6 +1590,40 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     padding:50px 0 30px 0;
 }
 
+.main-container table {
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.main-container table tr{
+    border:#cccccc 1px solid;
+    padding: 6px;
+}
+.main-container table tr td {
+    border:#cccccc 1px solid;
+    padding: 6px;
+}
+.main-container table tr th{
+    vertical-align: middle;
+    border:#cccccc 1px solid;
+    padding: 6px;
+}
+
+
+.main-container table tr.tr-head {
+    font-size: 14px;
+    background-color: #b2904b;
+    color: #FFFFFF;
+    /*text-align: center;*/
+}
+/*
+
+.main-container table tr.tr-dark {
+    background-color: #000;
+}
+
+*/
+
 
 
 /* heading */
