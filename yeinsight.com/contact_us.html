@@ -102,71 +102,96 @@
                         </div>
                     </div>
 
-                    <div class="main-container main-container-border-bottom  holder">
-                        <h3>Beijing </h3>
-                        <p>Contact:</p>
-                        <p>Tel:</p>
-                        <p>Email:</p>
-                    </div>
-                    <div class="main-container main-container-border-bottom  holder">
-                        <h3>Shanghai </h3>
-                        <p>Contact:</p>
-                        <p>Tel:</p>
-                        <p>Email:</p>
-                    </div>
-                    <div class="main-container main-container-border-bottom  holder">
-                        <h3>Guangzhou </h3>
-                        <p>Contact:</p>
-                        <p>Tel:</p>
-                        <p>Email:</p>
-                    </div>
-                    <div class="main-container main-container-border-bottom  holder">
-                        <h3>Shenzhen </h3>
-                        <p>Contact:</p>
-                        <p>Tel:</p>
-                        <p>Email:</p>
-                    </div>
-                    <div class="main-container main-container-border-bottom  holder">
-                        <h3>London </h3>
-                        <p>Contact:</p>
-                        <p>Tel:</p>
-                        <p>Email:</p>
-                    </div>
-                </div> <!-- main -->
-            </div>  <!-- w2 -->
-        </div>  <!-- w1 -->
 
-        <!-- footer -->
-        <div id="footer">
-            <div class="footer-holder">
-                <div class="footer-frame">
-                    <footer>
-                        <div class="case">
-                            <!-- grid-cols -->
-                            <div class="grid-cols">
-                                <!-- col33 -->
-                                <div class="col33">
-                                    <div class="col-holder">
-                                        <!-- contact -->
-                                        <h4>Contact us</h4>
-                                        <dl>
-                                            <dt> Telephone: </dt>
-                                            <dd>+86 131 2295 7050</dd>
-                                            <dt>Email: </dt>
-                                            <dd><a href="mailto:shengmin.qian@yeinsight.com">shengmin.qian@yeinsight.com</a></dd>
-                                            <dt>Address:</dt>
-                                            <dd>Room 1103, Building No.8, East part, Jianwai SOHO, Beijing, China</dd>
 
-                                        </dl>
-                                    </div>
+
+                    <div class="main-container main-container-border-bottom  holder">
+                        <div class="grid-cols">
+                            <div class="contact-cards">
+                                <div class="col50">
+                                    <h3>Beijing </h3>
+                                    <p>Contact:</p>
+                                    <p>Tel:</p>
+                                    <p>Email:</p>
+                                </div>
+                                <div class="col50">
+                                    <h3>Shanghai </h3>
+                                    <p>Contact:</p>
+                                    <p>Tel:</p>
+                                    <p>Email:</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-cols">
+                            <div class="contact-cards">
+                                <div class="col50">
+                                    <h3>Guangzhou </h3>
+                                    <p>Contact:</p>
+                                    <p>Tel:</p>
+                                    <p>Email:</p>
                                 </div>
 
-                                <!-- col33 -->
-                                <div class="col33">
-                                    <div class="col-holder">
-                                        <h4>About us</h4>
-                                        <p>As a professional market research company, Yeinsight helps global clients to better understand the Asian market. With a global vision and local insights into Asia,
-                                            we offer professionalism, innovation, and exceptional execution! </p>
+                                <div class="col50">
+                                 <h3>Shenzhen </h3>
+                                 <p>Contact:</p>
+                                 <p>Tel:</p>
+                                 <p>Email:</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="grid-cols">
+                        <div class="contact-cards">
+                            <div class="col50">
+                                <h3>London </h3>
+                                <p>Contact:</p>
+                                <p>Tel:</p>
+                                <p>Email:</p>
+                            </div>
+
+                            <div class="col50">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div> <!-- main -->
+        </div>  <!-- w2 -->
+    </div>  <!-- w1 -->
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="footer-holder">
+            <div class="footer-frame">
+                <footer>
+                    <div class="case">
+                        <!-- grid-cols -->
+                        <div class="grid-cols">
+                            <!-- col33 -->
+                            <div class="col33">
+                                <div class="col-holder">
+                                    <!-- contact -->
+                                    <h4>Contact us</h4>
+                                    <dl>
+                                        <dt> Telephone: </dt>
+                                        <dd>+86 131 2295 7050</dd>
+                                        <dt>Email: </dt>
+                                        <dd><a href="mailto:shengmin.qian@yeinsight.com">shengmin.qian@yeinsight.com</a></dd>
+                                        <dt>Address:</dt>
+                                        <dd>Room 1103, Building No.8, East part, Jianwai SOHO, Beijing, China</dd>
+
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <!-- col33 -->
+                            <div class="col33">
+                                <div class="col-holder">
+                                    <h4>About us</h4>
+                                    <p>As a professional market research company, Yeinsight helps global clients to better understand the Asian market. With a global vision and local insights into Asia,
+                                        we offer professionalism, innovation, and exceptional execution! </p>
                                     </div>
                                 </div>
 
@@ -206,15 +231,15 @@
 
 
     <script>
-        var api;
-        jQuery(document).ready(function() {
-            api =  jQuery('.fullwidthabnner').revolution(
-            {
-                delay:9000,
-                startwidth:940,
-                startheight:491,
+    var api;
+    jQuery(document).ready(function() {
+        api =  jQuery('.fullwidthabnner').revolution(
+        {
+            delay:9000,
+            startwidth:940,
+            startheight:491,
 
-                hideThumbs:10,
+            hideThumbs:10,
 
             thumbWidth:100,                         // Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
             thumbHeight:50,
@@ -252,8 +277,8 @@
             shadow:1,                               //0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
             fullWidth:"on"                          // Turns On or Off the Fullwidth Image Centering in FullWidth Modus
         });
-    });
-    </script>
+});
+</script>
 
 </body>
 </html>
