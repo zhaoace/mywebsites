@@ -1533,7 +1533,6 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .main-container h1 {
     margin:0 0 8px;
     font:400 22px/27px Oxygen, Arial, Helvetica, sans-serif;
-
 }
 .main-container h2 {margin:0 0 6px;}
 .main-container h3 {
@@ -1585,7 +1584,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .main-container-dark h1 {
     padding-top: 50px;
     text-align: left;
-    font:400  26px/30px "Oxygen", Arial, Helvetica, sans-serif;
+    font:400 22px/27px Oxygen, Arial, Helvetica, sans-serif;
 }
 .main-container-dark p{
     max-width:720px;
@@ -1593,7 +1592,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     padding-top: 0px;
     padding-bottom: 50px;
     text-align: left;
-    font:300 17px/24px 'Oxygen', Arial, Helvetica, sans-serif;
+    font:300 14px/20px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 
 
