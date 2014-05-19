@@ -67,7 +67,7 @@ body {
 }
 img {border-style:none;}
 a {
-    color:#8dc03d;
+    color:#b4914b;
     text-decoration:none;
 }
 a:hover {text-decoration:underline;}
@@ -284,10 +284,10 @@ h6 {
 }
 .nav-box > ul ul li.sentence {
     position:relative;
-    padding:3px 22px 5px;
+    padding:5px 22px 5px;
     display:block;
-    color: #000;
-    font-style: italic;
+    color: #f2f2f1;
+    background-color: #b2904b;
 }
 .nav-box > ul ul a {
     padding:12px 22px 13px;
@@ -2423,7 +2423,9 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     height:1%;
     display:table-row;
 }
-#footer .footer-frame {display:table-cell;border-top:2px solid #8dc03d;}
+#footer .footer-frame {
+    display:table-cell;border-top:2px solid #b4914b;
+}
 /* case */
 .case {
     max-width:940px;
@@ -3428,3 +3430,26 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 
 }
 
+
+.inline-image-padding {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.understand_consumers { }
+
+.understand_consumers article.text-box {
+    padding:10px 30px 0 0;
+}
+.understand_consumers .in-text-box {
+    /*padding:120px;*/
+    margin: 40px 0 0 0;
+}
+
+
+.produt-innovation-research {}
+
+.produt-innovation-research .col30{
+    padding:15px 30px 0 0;
+}
