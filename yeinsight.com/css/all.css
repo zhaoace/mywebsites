@@ -2496,7 +2496,6 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 #footer .email-input{
     background-color: #257561;
-    color: white;
     padding:8px 12px 8px 15px;
     margin-top: -2px;
     width:280px;
@@ -3563,5 +3562,15 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     padding:15px 30px 0 0;
 }
 
-::-webkit-input-placeholder { color: red; }
-::input-placeholder { color: red; }
+::-webkit-input-placeholder {
+    color: #02563e; text-overflow: ellipsis;
+}
+:-moz-placeholder {
+    color: #02563e !important; text-overflow: ellipsis;
+}
+::-moz-placeholder {
+    color: #02563e !important; text-overflow: ellipsis;
+} /* for the future */
+:-ms-input-placeholder {
+    color: #02563e !important; text-overflow: ellipsis;
+}
