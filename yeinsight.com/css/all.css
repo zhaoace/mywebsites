@@ -62,7 +62,8 @@ body {
     -webkit-text-size-adjust:none;
 }
 .inner {
-    background:#fff;
+/*    background:#fff;*/
+    overflow: hidden;
     max-width:980px;
     margin:0 auto;
 }
@@ -552,12 +553,22 @@ a .ico5 {background:url(../images/ico5.png) no-repeat; width:60px; height:60px;}
 a:hover .icon.ico5{background:url(../images/ico5-hover.png) no-repeat;}
 a .ico6 {background:url(../images/ico6.png) no-repeat; width:60px; height:60px;}
 a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
+.boxes-section .text-box-left {
+    overflow:hidden;
+    height:1%;
+    font-size:12px;
+    line-height:21px;
+    margin-right: 30px;
+}
 .boxes-section .text-box {
     overflow:hidden;
     height:1%;
     font-size:12px;
     line-height:21px;
+    margin-left:20px;
 }
+
+
 .boxes h3 {
     color:#222;
     line-height:18px;
@@ -3442,9 +3453,6 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     margin-left: -25px;
 }
 
-.profession-solution .text-box{
-    padding: 20px;
-}
 
 
 .branding-resarch {}
@@ -3524,6 +3532,9 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     margin-bottom: 30px;
 }
 
+.profession-solution .text-box{
+    padding: 20px;
+}
 .profession-solution-image-container {
     /*width: 80%;*/
     overflow: hidden;
@@ -3539,10 +3550,6 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 }
 
 
-.inline-image-padding {
-    margin: 0 auto;
-    padding: 10px;
-}
 
 
 .understand_consumers { }
@@ -3557,6 +3564,9 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 
 
 .produt-innovation-research {}
+.produt-innovation-research .design-thinking-img{
+    padding: 10px;
+}
 
 .produt-innovation-research .col30{
     padding:15px 30px 0 0;
@@ -3574,3 +3584,37 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 :-ms-input-placeholder {
     color: #02563e !important; text-overflow: ellipsis;
 }
+
+
+
+.deep-industry-insights .left-ico{
+    float:left;
+    width: 5%;
+}
+
+.deep-industry-insights .right-textbox{
+    float:right;
+    width: 90%;
+}
+
+.profession-solution .left-ico{
+    float:left;
+    width: 5%;
+    margin-top: 22px;
+}
+.profession-solution .middle-textbox{
+    float:left;
+    width: 60%;
+    margin-left: 30px;
+}
+.profession-solution .right-textbox{
+    float:left;
+    width: 30%;
+}
+
+
+/*
+
+.tmpborder{
+    border:1px solid;
+}*/
