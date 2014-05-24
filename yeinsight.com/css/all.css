@@ -1103,6 +1103,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .page-title h1 {
     padding-top: 48px;
     font-size: 32px;
+    text-transform:  uppercase;
 }
 
 .page-title p {
@@ -3734,6 +3735,25 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 .ico-title {
 
 }
+
+
+ul.sub-tabset {
+    background-color: pink;
+    overflow: hidden;
+    text-transform:uppercase;
+    z-index:1;
+
+}
+
+ul.sub-tabset li{
+    width: 48%;
+    overflow: left;
+    margin:0 auto;
+    background-color: navy;
+    display: inline;
+}
+
+
 
 
 
