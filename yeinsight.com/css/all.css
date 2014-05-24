@@ -86,27 +86,27 @@ form,fieldset{
     border:none;
 }
 h1 {
-    color:#222;
+    color:#015f47;
     font:400 30px/36px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 h2 {
-    color:#222;
+    color:#015f47;
     font:400 24px/36px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 h3 {
-    color:#222;
+    color:#015f47;
     font:400 18px/28px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 h4 {
-    color:#222;
+    color:#015f47;
     font:400 16px/18px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 h5 {
-    color:#222;
+    color:#015f47;
     font:400 14px/18px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 h6 {
-    color:#222;
+    color:#015f47;
     font:300 12px/18px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 /* wrapper */
@@ -570,12 +570,10 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 
 
 .boxes h3 {
-    color:#222;
     line-height:18px;
     margin:0 0 18px;
 }
 .boxes-section h3 {
-    color:#222;
     font-size: 14px;
     line-height:22px;
     margin:0 0 11px;
@@ -1562,7 +1560,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 .main-container h1 {
     margin:0 0 8px;
-    font:400 22px/30px Oxygen, Arial, Helvetica, sans-serif;
+    font:400 24px/32px Oxygen, Arial, Helvetica, sans-serif;
 }
 .main-container h2 {margin:0 0 6px;}
 .main-container h3 {
@@ -3441,8 +3439,8 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 }
 
 #clothing-industry {
-    width: 70%;
-    margin: 0 0 0 50px;
+    width: 272px;
+    margin: 0 0 0 30px;
 }
 
 .learn-more {
@@ -3469,6 +3467,19 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 
 .home-title {
     margin-left: -25px;
+}
+
+
+.home-title h1{
+    margin-top: 50px;
+    font:700 24px/32px Oxygen, Arial, Helvetica, sans-serif;
+    color:#015f47;
+}
+
+.home-title p{
+    margin-top: 20px;
+
+    font:400 17px/25px Oxygen, Arial, Helvetica, sans-serif;
 }
 
 .branding-resarch {}
