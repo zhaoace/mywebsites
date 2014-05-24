@@ -55,7 +55,7 @@ figure {
 html {background:#fff;}
 body {
     margin:0;
-    font:14px/21px Arial, Helvetica, sans-serif;
+    font:400 14px/21px Oxygen, Arial, Helvetica, sans-serif;
     color:#666;
     min-width:320px;
     background:#fbfbfb;
@@ -1624,6 +1624,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 #understand-your-industry table {
     font-size: 12px;
     margin: 20px 0;
+    background-color: #ebf2f1;
 }
 
 #understand-your-industry table tr{
@@ -2476,7 +2477,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     font:300 14px/23px "Oxygen", Arial, Helvetica, sans-serif;
 }
 #footer table th {
-    text-align: right;
+    text-align: left;
     padding-right: 10px;
     font-weight: bold;
 }
@@ -3446,14 +3447,29 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 
 .learn-more {
     float: right;
-    margin-right: 20px;
+    color:#666666;
+    font:400 14px/16px Oxygen, Arial, Helvetica, sans-serif;
+    height: 28px;
+}
+.learn-more p{
+    float:left;
+    font:400 14px/16px Oxygen, Arial, Helvetica, sans-serif;
+    padding: 5px 20px 5px 0;
+}
+.learn-more a{
+    color: #b2904b;
+    font:700 16px/16px Oxygen, Arial, Helvetica, sans-serif;
+}
+.learn-more .ico{
+    overflow:hidden;
+    float:right;
+    width:28px;
+    height:28px;
 }
 
 .home-title {
     margin-left: -25px;
 }
-
-
 
 .branding-resarch {}
 
@@ -3613,8 +3629,17 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 }
 
 
-/*
 
-.tmpborder{
-    border:1px solid;
-}*/
+
+/* grid-cols */
+.new-grid-cols {
+    overflow:hidden;
+}
+.new-grid-cols .col21 {
+    width:21%;
+    float:left;
+}
+.new-grid-cols .col78 {
+    width:78%;
+    float:right;
+}

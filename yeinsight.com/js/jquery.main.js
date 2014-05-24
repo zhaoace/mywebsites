@@ -650,23 +650,23 @@ jQuery.onFontResize = (function($) {
         }
     };
 }(jQuery));
-// clear inputs on focus
-// function initInputs() {
-//     PlaceholderInput.replaceByOptions({
-//         // filter options
-//         clearInputs: true,
-//         clearTextareas: true,
-//         clearPasswords: true,
-//         skipClass:'default',
+clear inputs on focus
+function initInputs() {
+    PlaceholderInput.replaceByOptions({
+        // filter options
+        clearInputs: true,
+        clearTextareas: true,
+        clearPasswords: true,
+        skipClass:'default',
 
-//         // input options
-//         showPasswordBullets: false,
-//         wrapWithElement: false,
-//         showUntilTyping: false,
-//         getParentByClass: false,
-//         placeholderAttr: 'placeholder'
-//     });
-// }
+        // input options
+        showPasswordBullets: false,
+        wrapWithElement: false,
+        showUntilTyping: false,
+        getParentByClass: false,
+        placeholderAttr: 'placeholder'
+    });
+}
 function initDropDown()
 {
     var nav = document.getElementById("nav");
