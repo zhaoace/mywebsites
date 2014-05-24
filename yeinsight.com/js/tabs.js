@@ -15,7 +15,7 @@ function initTabs()
                     links[j].tabs = tabs;
                     var c = document.getElementById(links[j].href.substr(links[j].href.indexOf("#") + 1));
 
-                    if (c) if (links[j].parentNode.className.indexOf("active") != -1) c.style.display = "block";
+                    if (c) if (links[j].parentNode.parentNode.className.indexOf("active") != -1) c.style.display = "block";
                     else c.style.display = "none";
 
                     links[j].onclick = function ()
@@ -30,9 +30,9 @@ function initTabs()
                                 {
                                     tab.style.display = "none";
                                 }
-                                this.tabs[i].parentNode.className = this.tabs[i].parentNode.className.replace("active", "");
+                                this.tabs[i].parentNode.parentNode.className = this.tabs[i].parentNode.className.replace("active", "");
                             }
-                            this.parentNode.className += " active";
+                            this.parentNode.parentNode.className += " active";
                             c.style.display = "block";
                             return false;
                         }
