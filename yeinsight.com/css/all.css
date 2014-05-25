@@ -3694,7 +3694,9 @@ ul.sub-tabset li{
 
 .right-container h1{
     padding-bottom: 10px;
+    font-weight: 700;
 }
+
 
 
 
@@ -3717,7 +3719,7 @@ ul.sub-tabset li{
 
 
 .right-container .text-box{
-    padding: 14px 0 14px 0;
+    padding:0 0 10px 10px;
 }
 .right-container .image-box {
     /*width: 80%;*/
