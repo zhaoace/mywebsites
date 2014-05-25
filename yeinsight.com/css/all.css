@@ -87,7 +87,7 @@ form,fieldset{
 }
 h1 {
     color:#015f47;
-    font:400 24px/36px 'Oxygen', Arial, Helvetica, sans-serif;
+    font:700 24px/36px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 h2 {
     color:#015f47;
@@ -95,7 +95,7 @@ h2 {
 }
 h3 {
     color:#015f47;
-    font:400 18px/28px 'Oxygen', Arial, Helvetica, sans-serif;
+    font:700 18px/28px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 h4 {
     color:#015f47;
@@ -1579,6 +1579,11 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .portfolio-box h5 {margin:0 0 11px;}
 .main-container {
     padding:40px 19px 15px 0;
+    font:300 "Oxygen", Arial, Helvetica, sans-serif;
+}
+
+.main-container-expert {
+    padding:30px 0 30px 0;
     font:300 "Oxygen", Arial, Helvetica, sans-serif;
 }
 .main-container-border-bottom {
@@ -3461,7 +3466,7 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 }
 .learn-more p{
     font:400 14px/16px Oxygen, Arial, Helvetica, sans-serif;
-    padding: 5px 20px 5px 0;
+    padding: 5px 10px 5px 0;
 }
 .learn-more a{
     color: #b2904b;
@@ -3522,6 +3527,11 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     overflow: hidden;
 }
 
+.text-box-experts {
+
+    padding-right: 30px;
+}
+
 
 .logo-image-container {
     /*width: 80%;*/
@@ -3551,9 +3561,6 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 
 
 .produt-innovation-research {}
-.produt-innovation-research .design-thinking-img{
-    padding: 10px;
-}
 
 .produt-innovation-research .col30{
     padding:15px 30px 0 0;
@@ -3762,6 +3769,10 @@ ul.sub-tabset li {
     margin-top: 18px;
     margin-bottom: 20px;
 }
+.right-container .center {
+
+
+}
 .right-container .logo-box {
     /*width: 80%;*/
     overflow: hidden;
@@ -3800,4 +3811,7 @@ ul.sub-tabset li {
 span{
     font-weight: 700;
     color: #444444;
+}
+.design-thinking-img{
+    padding: 10px 10px 20px 10px;
 }
