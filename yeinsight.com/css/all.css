@@ -3491,45 +3491,6 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     font:400 17px/25px Oxygen, Arial, Helvetica, sans-serif;
 }
 
-.branding-resarch {}
-
-.branding-resarch article{
-    padding:0 10px 0 0 ;
-}
-
-.branding-resarch .module-box{
-    background: #FF0 url() 0 0 no-repeat;
-    min-width:980px;
-    margin-right: 10px;
-
-}
-
-.branding-resarch .module{
-    background: #f2f2f2 url() 0 0 no-repeat;
-    margin:  0 0 0 12px;
-    padding:  15px 20px 0 20px;
-    height:350px;
-
-}
-
-.branding-resarch .module-bottom{
-    background: #b2904b url() 0 0 no-repeat;
-    margin:  0 0 30px 12px;
-    text-align: center;
-    height: 60px;
-    color: #FFFFFF;
-}
-
-.branding-resarch .module-bottom p.p1{
-    position: relative;
-    bottom: -20px;
-}
-.branding-resarch .module-bottom p.p2{
-    position: relative;
-    bottom: -10px;
-}
-
-
 
 .numb {
     overflow:hidden;
