@@ -1722,9 +1722,10 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .num ul,
 .num {
     counter-reset:item;
-    padding:0 0 15px 10px;
+    padding:0 0 15px 6px;
     line-height:22px;
     font-family:  Oxygen, Arial;
+
 }
 .num ul {
     margin:0 0 0 -2px;
@@ -1737,6 +1738,26 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     vertical-align:top;
     padding:0 0 0 20px;
 }
+
+.num li before {
+    float:left;
+    width:5px;
+    margin:0 0 0 -17px;
+    vertical-align:top;
+    color:#b2904b;
+    font-weight: 700;
+}
+.num li:before {
+    float:left;
+    content: counters(item, ".") " ";
+    counter-increment: item;
+    width:5px;
+    margin:0 0 0 -17px;
+    vertical-align:top;
+    color:#b2904b;
+    font-weight: 700;
+}
+
 /* dot */
 .dot {
     padding:0 0 10px 10px;
@@ -3343,20 +3364,6 @@ iframe.contact-page-2 {
 
 input[type="image"]{padding:0;border:none;}
 input[type=submit], input[type=text], input[type=password], input[type=file], textarea{-webkit-appearance:none;}
-.num li before {
-    float:left;
-    width:21px;
-    margin:0 0 0 -20px;
-    vertical-align:top;
-}
-.num li:before {
-    float:left;
-    content: counters(item, ".") " ";
-    counter-increment: item;
-    width:21px;
-    margin:0 0 0 -20px;
-    vertical-align:top;
-}
 
 
 .ico-image {
@@ -3687,35 +3694,49 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 
 
 
+
+ul.sub-tabset {
+    float:left;
+    width: 694px;
+    padding:0;
+    margin:-50px 0 20px 0;
+    border-bottom: 4px solid #b2904b;
+    font-size: 16px;
+
+}
+
+
 div.sub-li {
     float: left;
-    width: 50%;
+    padding: 10px 20px 10px 20px;
     background-color: navy;
     text-align: center;
     background-color: inherit;
 }
 
 
-
-ul.sub-tabset {
-    float:left;
-    width: 694px;
-    padding:0;
-    margin:0;
-    height: 20px;
-    border-bottom: 2px solid #b4914b;
-    background-color: yellow;
-}
-
-
 ul.sub-tabset li{
     display: inline;
-    background-color: #000000;
+    color: #015f47;
 }
 
 ul.sub-tabset li.active{
     display: inline;
-    background-color:  yellow;
+    background-color:   #b2904b;
+    color: #ffffff;
+}
+
+
+ul.sub-tabset li a{
+    color: #015f47;
+    text-decoration: none;
+}
+
+ul.sub-tabset li.active a{
+    display: inline;
+    background-color:   #b2904b;
+    color: #ffffff;
+    text-decoration: none;
 }
 /*
 ul.sub-tabset li {
