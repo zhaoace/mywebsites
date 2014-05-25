@@ -2524,25 +2524,6 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     border-radius: 2px;
 }
 
-#footer .btn-subscribe:hover {
-    display:inline-block;
-    vertical-align:top;
-    color:#b4914b;
-    font:700 14px/14px Oxygen, Arial, Helvetica, sans-serif;
-    line-height:13px;
-    text-decoration:none;
-    padding:9px 17px 10px 18px;
-    margin-top:-2px;
-    margin-left:12px;
-    background-color: #015f47;
-    /*margin:0 20px 10px 10px;*/
-    border:2px solid #b4914b;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-
-
-}
 /* case */
 .case {
     max-width:940px;
