@@ -3745,6 +3745,9 @@ ul.sub-tabset li {
 .right-container .text-box{
     padding:0 0 10px 0px;
 }
+.right-container .text-box-2{
+    margin-right: 20px;
+}
 .right-container .image-box {
     /*width: 80%;*/
     overflow: hidden;
