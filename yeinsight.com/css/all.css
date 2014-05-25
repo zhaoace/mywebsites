@@ -1748,7 +1748,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 /* dot */
 .dot {
-    padding:0 0 15px 10px;
+    /*padding:0 0 15px 10px;*/
     line-height:22px;
     font-family:  Oxygen, Arial;
 }
@@ -3468,6 +3468,7 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     color:#666666;
     font:400 14px/16px Oxygen, Arial, Helvetica, sans-serif;
     height: 28px;
+    margin:5px 0 5px 0 ;
     /*background:url(../images/read_more.png) no-repeat 50px center;*/
 
 }
@@ -3586,16 +3587,6 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     margin-bottom: 30px;
 }
 
-.profession-solution .text-box{
-    padding: 20px;
-}
-.profession-solution-image-container {
-    /*width: 80%;*/
-    overflow: hidden;
-    margin-top: 20px;
-    margin-bottom: 60px;
-}
-
 .contact-cards {
     overflow: hidden;
     margin-top:15px;
@@ -3650,23 +3641,6 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     float:right;
     width: 90%;
 }
-
-.profession-solution .left-ico{
-    float:left;
-    width: 5%;
-    margin-top: 22px;
-}
-.profession-solution .middle-textbox{
-    float:left;
-    width: 60%;
-    margin-left: 30px;
-}
-.profession-solution .right-textbox{
-    float:left;
-    width: 30%;
-}
-
-
 
 
 
@@ -3726,11 +3700,6 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 }
 
 
-.right-container {
-    padding-top: 10px;
-
-}
-
 
 .ico-title {
 
@@ -3755,6 +3724,49 @@ ul.sub-tabset li{
 
 
 
+.right-container {
+    padding-top: 10px;
+
+    margin-bottom: 60px;
+}
+
+.right-container .box{
+    /*background: #000;*/
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+.right-container h1{
+    padding-bottom: 10px;
+}
 
 
 
+.right-container h3{
+    padding-bottom: 3px;
+}
+
+
+
+.right-container .left-ico{
+    float:left;
+    width: 5%;
+    margin-top: 22px;
+}
+.right-container .right-textbox{
+    float:right;
+    width: 83%;
+    margin-left: 30px;
+}
+
+
+.right-container .text-box{
+    padding: 14px 0 14px 0;
+}
+.right-container .image-box {
+    /*width: 80%;*/
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
