@@ -3661,23 +3661,43 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 }
 
 
-ul.sub-tabset {
-    background-color: pink;
-    overflow: hidden;
-    text-transform:uppercase;
-    z-index:1;
 
+
+div.sub-li {
+    float: left;
+    width: 50%;
+    background-color: navy;
+    text-align: center;
+    background-color: inherit;
 }
+
+
+
+ul.sub-tabset {
+    float:left;
+    width: 694px;
+    padding:0;
+    margin:0;
+    height: 20px;
+    border-bottom: 2px solid #b4914b;
+    background-color: yellow;
+}
+
 
 ul.sub-tabset li{
-    width: 48%;
-    overflow: left;
-    margin:0 auto;
-    background-color: navy;
     display: inline;
+    background-color: #000000;
 }
 
-
+ul.sub-tabset li.active{
+    display: inline;
+    background-color:  yellow;
+}
+/*
+ul.sub-tabset li {
+    width: 347px;
+    display: inline;
+}*/
 
 .right-container {
     padding-top: 10px;
@@ -3696,8 +3716,6 @@ ul.sub-tabset li{
     padding-bottom: 10px;
     font-weight: 700;
 }
-
-
 
 
 .right-container h3{
