@@ -3656,8 +3656,13 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 
 
 
-.ico-title {
+.title-ico {
+    margin-left: 40px;
+}
 
+
+.title-ico-2 {
+    margin-left: 30px;
 }
 
 
