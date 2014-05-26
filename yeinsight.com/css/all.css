@@ -133,7 +133,7 @@ h6 {
     position:relative;
     z-index:12;
     background:#ffffff;
-    border-bottom:1px solid #e5e5e5;
+    /*border-bottom:1px solid #e5e5e5;*/
     box-shadow: 0 0 3px rgba(0,0,0,0.1);
     border-top:3px solid #b2904b;
 }
@@ -1086,14 +1086,37 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
 }
 
-.page-title-box {
+.page-title-box-1 {
     height: 180px;
-    background-color: #ebf2f1;
+    background: url(../images/heading_why_us.jpg) no-repeat center center;
+    background-size: 100%;
 }
 
 .page-title-box-2 {
+    height: 180px;
+    background: url(../images/heading_industry_experience.jpg) no-repeat center center;
+    background-size: 100%;
+}
+.page-title-box-3 {
+    height: 200px;
+    background: url(../images/heading_our_services.jpg) no-repeat center center;
+    background-size: 100%;
+}
+
+.page-title-box-4 {
     height: 200px;
     background-color: #ebf2f1;
+    background: url(../images/heading_our_experts.jpg) no-repeat center center;
+    background-size: 100%;
+
+}
+
+.page-title-box-5 {
+    height: 200px;
+    background-color: #ebf2f1;
+    background: url(../images/heading_our_experts.jpg) no-repeat center center;
+    background-size: 100%;
+
 }
 
 .page-title {
@@ -1101,33 +1124,28 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
     margin: 0 auto;
     overflow: hidden;
     font:300 16px/18px "Oxygen", Arial, Helvetica, sans-serif;
+    color: white;
 }
 
-.page-title-bg1{
-   background: url(../images/title_background_whyus.png) no-repeat center center;
-}
-.page-title-bg2{
-   background: url(../images/title_background_whyus.png) no-repeat center center;
-}
-.page-title-bg3{
-   background: url(../images/title_background_whyus.png) no-repeat center center;
-}
-.page-title-bg4{
-   background: url(../images/title_background_whyus.png) no-repeat center center;
-}
-.page-title-bg5{
-   background: url(../images/title_background_whyus.png) no-repeat center center;
-}
 .page-title h1 {
     padding-top: 48px;
     font-size: 32px;
     text-transform:  uppercase;
+    color: inherit;
+    font-family: Lato;
+    font-weight: 700;
+
 }
 
 .page-title p {
     padding-top: 12px;
-    font-size: 19px;
-    line-height: 24px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    text-transform:  uppercase;
+    font-family: Lato;
+    font-weight: 100;
+
 
 }
 /* breadcrumbs */
