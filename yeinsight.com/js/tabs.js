@@ -41,13 +41,14 @@ function initTabs()
             }
         }
     }
-}
-if (window.addEventListener){
-    window.addEventListener("load", initTabs, false);
     $("li[class=active]").children().filter(".li-left-text").parent().removeClass("active");
     $("li .li-left-text a[href="+ location.hash+"]").first().parent().parent().addClass("active");
     $(".tab-content[style='display: block;']").css("display","none");
     $(location.hash).css("display","block");
+    document.body.scrollTop=0;
+}
+if (window.addEventListener){
+    window.addEventListener("load", initTabs, false);
 }
 else if (window.attachEvent && !window.opera)
     window.attachEvent("onload", initTabs);
