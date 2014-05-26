@@ -404,12 +404,12 @@ h6 {
 }
 .gallery .text-box h2 {
     margin:0 0 9px;
-    font:400 44px/46px "Oxygen", Arial, Helvetica, sans-serif;
+    font:700 44px/46px "Oxygen", Arial, Helvetica, sans-serif;
     color:#8dc03d;
     text-transform:uppercase;
 }
 .gallery .text-box h3 {
-    font:400 24px/26px "Oxygen", Arial, Helvetica, sans-serif;
+    font:700 24px/26px "Oxygen", Arial, Helvetica, sans-serif;
     color:#222;
     margin:0 0 12px;
 }
@@ -1252,7 +1252,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 .post-box .meta h3 {margin:0 0 3px;}
 .post-box .meta h3 a {
-    font:italic 400 18px/22px 'Open Sans', Arial, Helvetica, sans-serif;
+    font:italic 700 18px/22px 'Open Sans', Arial, Helvetica, sans-serif;
     letter-spacing: -1px;
     color:#222;
     transition: 300ms all linear;
@@ -1268,7 +1268,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 .post-box .text-box h3 {
     margin:0 0 5px;
-    font:italic 400 18px/22px 'Open Sans', Arial, Helvetica, sans-serif;
+    font:italic 700 18px/22px 'Open Sans', Arial, Helvetica, sans-serif;
     letter-spacing: -1px;
 }
 .post-box .text-box .meta {padding-bottom:3px;}
@@ -1591,12 +1591,12 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 .main-container h1 {
     margin:0 0 8px;
-    font:400 24px/32px Oxygen, Arial, Helvetica, sans-serif;
+    font:700 24px/32px Oxygen, Arial, Helvetica, sans-serif;
 }
 .main-container h2 {margin:0 0 6px;}
 .main-container h3 {
     margin:0 0 7px;
-    font:400 18px/23px Oxygen, Arial, Helvetica, sans-serif;
+    font:700 18px/23px Oxygen, Arial, Helvetica, sans-serif;
 }
 .main-container h4 {margin:0 0 12px;}
 .main-container h5 {margin:0 0 10px;}
@@ -1605,7 +1605,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .main-container p {
     /*margin:0 0 15px;*/
     margin:0 0 10px;
-    font:400 14px/22px Oxygen, Arial, Helvetica, sans-serif;
+    font:700 14px/22px Oxygen, Arial, Helvetica, sans-serif;
     /*background-color: #000;*/
 }
 
