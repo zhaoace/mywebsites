@@ -1578,7 +1578,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 .portfolio-box h5 {margin:0 0 11px;}
 .main-container {
-    padding:40px 19px 15px 0;
+    padding:20px 19px 15px 0;
     font:300 "Oxygen", Arial, Helvetica, sans-serif;
 }
 
@@ -1605,14 +1605,14 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .main-container p {
     /*margin:0 0 15px;*/
     margin:0 0 10px;
-    font:700 14px/22px Oxygen, Arial, Helvetica, sans-serif;
+    font:400 14px/22px Oxygen, Arial, Helvetica, sans-serif;
     /*background-color: #000;*/
 }
 
 .main-container .year img{
    display:block;
    margin:0 auto;
-   padding-bottom: 25px;
+   padding: 25px 0 25px 0;
 }
 
 .main-container .under-year{
@@ -1641,8 +1641,9 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 
 .dark{
-    padding: 0;
+    padding: 10px 0 20px 0;
     background: #f1f1f1;
+    margin: 10px 0 20px 0;
 }
 
 
@@ -3814,4 +3815,8 @@ span{
 }
 .design-thinking-img{
     padding: 10px 10px 20px 10px;
+}
+
+.main-index {
+    padding-bottom: 40px;
 }
