@@ -54,16 +54,20 @@
                 <!-- main -->
                 <div id="main " class="main-index">
 
-                    <div class="map">
-                        <div  class="holder">
-                            <div class="home-title">
-                            <h1 >With a global vision and local insights into Asia,<br>
-                            we offer professionalism, innovation, and exceptional execution.</h1>
-                            <p>As a professional market research company, <br>Yeinsight helps global clients to better understand the Asian market.</p>
+                    <div class="map-container">
+                        <div class="map ">
+                            <div  class="holder">
+                                <div class="home-title">
+                                    <h1>
+                                        With a global vision and local insights into Asia,<br>
+                                        we offer professionalism, innovation, and exceptional execution.
+                                    </h1>
+                                    <p>As a professional market research company, <br>Yeinsight helps global clients to better understand the Asian market.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
 
 
                     <div class="main-container   holder">
@@ -71,7 +75,7 @@
                             <article>
                                 <div class="year"><img  src="images/year.png" alt="" /></div>
                             </article>
-                                <p class="under-year">Established in 2004, and as an ESOMAR member, we have long been serving many top 500 companies and well-known Chinese companies. Whatever stage of life cycle your brand or product is in,<br> we can always come up with solutions that suit your very needs and help you succeed.</p>
+                            <p class="under-year">Established in 2004, and as an ESOMAR member, we have long been serving many top 500 companies and well-known Chinese companies. Whatever stage of life cycle your brand or product is in,<br> we can always come up with solutions that suit your very needs and help you succeed.</p>
 
                         </div>
                     </div>
@@ -172,11 +176,11 @@
                             <!-- col50 -->
                             <div class="col50">
                                 <article class="boxes-section">
-                                        <img src="images/index-4.png" alt="" class="ico-image" />
-                                        <div class="text-box">
-                                            <h3>As one of our featured services, we organize regular innovation workshops for clients.</h3>
-                                            <p>According to your specific needs, we design methodologies and processes for each workshop, such as helping companies to engage directly with consumers in the research process and convert research findings into viable concepts, and organizing consumer participation in the process of concept creation. </p>
-                                        </div>
+                                    <img src="images/index-4.png" alt="" class="ico-image" />
+                                    <div class="text-box">
+                                        <h3>As one of our featured services, we organize regular innovation workshops for clients.</h3>
+                                        <p>According to your specific needs, we design methodologies and processes for each workshop, such as helping companies to engage directly with consumers in the research process and convert research findings into viable concepts, and organizing consumer participation in the process of concept creation. </p>
+                                    </div>
                                 </article>
                             </div>
                         </div>
@@ -277,68 +281,68 @@
 
     </div> <!-- warper -->
 
-        <script type="text/javascript">
-        $('a[data-rel]').each(function() {
-            $(this).attr('rel', $(this).attr('data-rel')).removeAttr('data-rel');
-        });
-        </script>
-        <script type="text/javascript" src="js/dropdown-menu.js"></script>
-        <script type="text/javascript" src="js/jquery.countTo.js"></script>
-        <script type="text/javascript" src="js/jquery.appear.js"></script>
-        <script>
-        var api;
-        jQuery(document).ready(function() {
+    <script type="text/javascript">
+    $('a[data-rel]').each(function() {
+        $(this).attr('rel', $(this).attr('data-rel')).removeAttr('data-rel');
+    });
+    </script>
+    <script type="text/javascript" src="js/dropdown-menu.js"></script>
+    <script type="text/javascript" src="js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script>
+    var api;
+    jQuery(document).ready(function() {
 
-            $('.counter-item').appear(function(){
-                $('.timer').countTo();
-            }, { accY: -1 });
-
-
-
-            api =  jQuery('.fullwidthabnner').revolution(
-            {
-                delay:9000,
-                startwidth:940,
-                startheight:491,
-
-                hideThumbs:10,
-
-                                thumbWidth:100,                         // Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
-                                thumbHeight:50,
-                                thumbAmount:5,
-
-                                navigationType:"none",              // bullet, thumb, none
-                                navigationArrows:"solo",                // nexttobullets, solo (old name verticalcentered), none
-
-                                navigationStyle:"round",                // round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
-
-
-                                navigationHAlign:"center",              // Vertical Align top,center,bottom
-                                navigationVAlign:"bottom",                  // Horizontal Align left,center,right
-                                navigationHOffset:0,
-                                navigationVOffset:20,
-
-                                soloArrowLeftHalign:"left",
-                                soloArrowLeftValign:"center",
-                                soloArrowLeftHOffset:20,
-                                soloArrowLeftVOffset:0,
-
-                                soloArrowRightHalign:"right",
-                                soloArrowRightValign:"center",
-                                soloArrowRightHOffset:20,
-                                soloArrowRightVOffset:0,
-
-                                touchenabled:"on",                      // Enable Swipe Function : on/off
-                                onHoverStop:"on",                       // Stop Banner Timet at Hover on Slide on/off
+        $('.counter-item').appear(function(){
+            $('.timer').countTo();
+        }, { accY: -1 });
 
 
 
-                                stopAtSlide:-1,
-                                stopAfterLoops:-1,
+        api =  jQuery('.fullwidthabnner').revolution(
+        {
+            delay:9000,
+            startwidth:940,
+            startheight:491,
 
-                                shadow:1,                               //0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
-                                fullWidth:"on"                          // Turns On or Off the Fullwidth Image Centering in FullWidth Modus
-                            });
+            hideThumbs:10,
+
+thumbWidth:100,                         // Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+thumbHeight:50,
+thumbAmount:5,
+
+navigationType:"none",              // bullet, thumb, none
+navigationArrows:"solo",                // nexttobullets, solo (old name verticalcentered), none
+
+navigationStyle:"round",                // round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+
+
+navigationHAlign:"center",              // Vertical Align top,center,bottom
+navigationVAlign:"bottom",                  // Horizontal Align left,center,right
+navigationHOffset:0,
+navigationVOffset:20,
+
+soloArrowLeftHalign:"left",
+soloArrowLeftValign:"center",
+soloArrowLeftHOffset:20,
+soloArrowLeftVOffset:0,
+
+soloArrowRightHalign:"right",
+soloArrowRightValign:"center",
+soloArrowRightHOffset:20,
+soloArrowRightVOffset:0,
+
+touchenabled:"on",                      // Enable Swipe Function : on/off
+onHoverStop:"on",                       // Stop Banner Timet at Hover on Slide on/off
+
+
+
+stopAtSlide:-1,
+stopAfterLoops:-1,
+
+shadow:1,                               //0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
+fullWidth:"on"                          // Turns On or Off the Fullwidth Image Centering in FullWidth Modus
+});
 });
 </script>
 </body>

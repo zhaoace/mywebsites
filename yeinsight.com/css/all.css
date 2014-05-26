@@ -1621,6 +1621,11 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 
 
+.map-container {
+    background: #f1f1f1;
+
+}
+
 .map {
     background:url(../images/map_flag.png) no-repeat ;
     width: 100%;
@@ -1639,6 +1644,8 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .map p {
     margin:12px  0 0 ;
 }
+
+
 
 .dark{
     padding: 10px 0 20px 0;
@@ -3795,10 +3802,15 @@ ul.sub-tabset li {
     border:#cccccc 1px solid;
     padding: 6px;
 }
+#understand-your-industry table tr td {
+    border:#cccccc 1px solid;
+    padding: 6px;
+}
 #understand-your-industry table tr th{
     vertical-align: middle;
     border:#cccccc 1px solid;
     padding: 6px;
+    font-weight: 700;
 }
 
 
@@ -3819,4 +3831,11 @@ span{
 
 .main-index {
     padding-bottom: 40px;
+}
+
+.photo {
+    padding: 10px;
+    border: 1px #000 solid;
+    background-color: #fff;
+    margin: 10px;
 }
