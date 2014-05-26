@@ -3816,13 +3816,19 @@ ul.sub-tabset li {
     border:#cccccc 1px solid;
     padding: 6px;
 }
+
 #understand-your-industry table tr td {
     border:#cccccc 1px solid;
     padding: 6px;
 }
-#understand-your-industry table tr td {
+#understand-your-industry table tr td.bg2{
     border:#cccccc 1px solid;
     padding: 6px;
+}
+#understand-your-industry table tr td.bg3{
+    border:#cccccc 1px solid;
+    padding: 6px;
+    background-color: #f6f6f6;
 }
 #understand-your-industry table tr th{
     vertical-align: middle;
@@ -3830,7 +3836,6 @@ ul.sub-tabset li {
     padding: 6px;
     font-weight: 700;
 }
-
 
 #understand-your-industry table tr.tr-head {
     font-size: 14px;
