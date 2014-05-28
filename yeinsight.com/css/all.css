@@ -3931,3 +3931,25 @@ span{
 
 
 
+.case-study {
+    background-color: #d8d8d8;
+    border-top: 4px #b2904b solid;
+    margin-top: 40px;
+    padding: 20px 25px 20px 25px;
+
+}
+.case-study .header {
+    padding-bottom: 10px;
+
+
+
+}
+
+.case-study .header h1{
+    color: #b2904b;
+    text-transform: uppercase;
+    display: inline;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 28px;
+}
