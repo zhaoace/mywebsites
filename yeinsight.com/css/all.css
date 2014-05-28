@@ -1112,9 +1112,9 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 }
 
 .page-title-box-5 {
-    height: 200px;
+    height: 140px;
     background-color: #ebf2f1;
-    background: url(../images/heading_our_experts.jpg) no-repeat center center;
+    background: url(../images/heading_contact_us.jpg) no-repeat center center;
     background-size: 100%;
 
 }
@@ -3565,13 +3565,6 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
     margin-bottom: 30px;
 }
 
-.contact-cards {
-    overflow: hidden;
-    margin-top:15px;
-    margin-bottom: 40px;
-
-}
-
 
 
 
@@ -3957,4 +3950,64 @@ span{
     padding-left: 10px;
     font-weight: 700;
     font-size: 28px;
+}
+
+
+.contact-cards {
+    overflow: hidden;
+
+}
+
+.contact-card{
+    border-top: 4px #b2904b solid;
+    border-left: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    margin: 0 13.5px 0 13.5px;
+    /*background-color: #FFFFFF;*/
+    height: 200px;
+}
+
+
+
+.contact-card .city{
+    margin: 70px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px #b2904b solid;
+    width: 70%;
+    text-align: center;
+
+}
+
+.contact-card .contact{
+    margin: 50px auto;
+    padding-right: 20px;
+
+}
+
+.contact-card address {
+    font-size: 12px;
+    color: #8e8e8e;
+
+}
+
+.contact-card a {
+    color: #b2904b;
+
+}
+
+.contact-card h6 {
+    font-size: 14px;
+    padding-top:  5px;
+    padding-bottom: 4px;
+
+}
+
+
+
+.contact-card h1{
+    color: #b2904b;
+    font-weight: 700;
+    font-size: 28px;
+
 }
