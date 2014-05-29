@@ -48,6 +48,7 @@ function initTabs()
         $(".tab-content[style='display: block;']").css("display","none");
         $(location.hash).css("display","block");
         document.body.scrollTop=0;
+        document.documentElement.scrollTop=0;
         if(location.hash == "#tab-5"){
             $("#tab-5a").css("display","block");
         }
