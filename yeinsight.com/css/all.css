@@ -3956,6 +3956,7 @@ span{
 .contact-cards {
     overflow: hidden;
 
+
 }
 
 .contact-card{
@@ -3966,6 +3967,7 @@ span{
     margin: 0 13.5px 0 13.5px;
     /*background-color: #FFFFFF;*/
     height: 200px;
+    background-color: #ffffff;
 }
 
 
