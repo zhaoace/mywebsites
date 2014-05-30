@@ -1753,7 +1753,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 .num ul,
 .num {
     counter-reset:item;
-    padding:0 0 15px 6px;
+    padding:0 0 0px 6px;
     line-height:22px;
     font-family:  Oxygen, Arial;
 
@@ -1791,7 +1791,7 @@ a:hover .icon.ico6{background:url(../images/ico6-hover.png) no-repeat;}
 
 /* dot */
 .dot {
-    padding:0 0 10px 10px;
+    padding:0 0 0px 10px;
 
     line-height:22px;
     font-family:  Oxygen, Arial;
@@ -3807,6 +3807,7 @@ ul.sub-tabset li {
     font-size: 12px;
     margin: 0px 0;
     background-color: #ebf2f1;
+    /*margin-bottom: 10px;*/
 }
 
 #understand-your-industry table tr{
@@ -3932,8 +3933,8 @@ span{
 .case-study {
     background-color: #efefef;
     border-top: 4px #b2904b solid;
-    margin-top: 60px;
-    padding: 20px 25px 20px 25px;
+    margin-top: 45px;
+    padding: 20px 25px 1px 25px;
 
 }
 .case-study .header {
