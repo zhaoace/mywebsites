@@ -4014,3 +4014,84 @@ span{
     font-size: 28px;
 
 }
+
+
+
+
+
+#online-survey {
+    padding-top: 15px;
+
+}
+
+#online-survey table {
+    font-size: 12px;
+    margin: 0px 0;
+    background-color: #ebf2f1;
+    text-align: center;
+    /*margin-bottom: 10px;*/
+}
+
+
+
+#online-survey table tr th{
+    vertical-align: middle;
+    border:#cccccc 1px solid;
+    padding: 6px;
+    font-weight: 700;
+    background-color: white;
+}
+#online-survey table thead tr th{
+    border:#cccccc 1px solid;
+    padding: 6px;
+    background-color: #f0f0f0;
+
+}
+#online-survey table tr th.male{
+    vertical-align: middle;
+    border:#cccccc 1px solid;
+    padding: 6px;
+    font-weight: 700;
+    background-color: #b2904b;
+    color: white;
+}
+#online-survey table tr th.female{
+    vertical-align: middle;
+    border:#cccccc 1px solid;
+    padding: 6px;
+    font-weight: 700;
+    background-color: #015f47;
+    color: white;
+}
+
+#online-survey table tr{
+    border:#cccccc 1px solid;
+    padding: 6px;
+}
+
+#online-survey table tr.tr-head {
+    font-size: 14px;
+    background-color: #b2904b;
+    color: #FFFFFF;
+    /*text-align: center;*/
+}
+
+#online-survey table tr td {
+    border:#cccccc 1px solid;
+    padding: 6px;
+}
+#online-survey table tr td.city {
+    border:#cccccc 1px solid;
+    padding: 6px;
+    background-color: white;
+    text-align: center;
+}
+#online-survey table tr td.male {
+    border:#cccccc 1px solid;
+    padding: 6px;
+    background-color:#f2f0eb;
+}
+#online-survey table tr td.female {
+    border:#cccccc 1px solid;
+    padding: 6px;
+}
