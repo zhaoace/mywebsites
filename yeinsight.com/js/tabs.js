@@ -43,21 +43,33 @@ function initTabs()
     }
     if (location.hash != "")  {
 
-        $("li[class=active]").children().filter(".li-left-text").parent().removeClass("active");
-        $("li .li-left-text a[href="+ location.hash+"]").first().parent().parent().addClass("active");
-        $(".tab-content[style='display: block;']").css("display","none");
-        $(location.hash).css("display","block");
+
+        // click a element to show the tab.
+        var toTab = location.hash.substring(0,6);
+        var isLv2Tab = (location.hash[6] != null);
+
+        $("a[href='"+toTab+"']").click();
+        if ( isLv2Tab ) {
+            $("a[href='"+location.hash+"']").click();
+        }
+
+
+        //scroll to right place to show the screen.
         document.body.scrollTop=0;
         document.documentElement.scrollTop=0;
         window.scrollTo(0,0);
-        if(location.hash == "#tab-5"){
-            $("#tab-5a").css("display","block");
-        }
-
     }
 }
+
+
+
 if (window.addEventListener){
     window.addEventListener("load", initTabs, false);
 }
 else if (window.attachEvent && !window.opera)
     window.attachEvent("onload", initTabs);
+
+
+
+
+
