@@ -54,10 +54,28 @@ function initTabs()
         if ( isLv2Tab ) {
             $("a[href='"+location.hash+"']").click();
         }
-        //scroll to right place to show the screen.
-        document.body.scrollTop=0;
-        document.documentElement.scrollTop=0;
-        window.scrollTo(0,0);
+        //scroll to header to show the screen.
+
+
+        var toCaseStudy = (location.hash.lastIndexOf("case_study") > -1 )
+        if ( toCaseStudy ) {
+            // location.href="#case-study";
+            var cases = $(".tab-content[style='display: block;']").find(".case-study");
+            var topOffset = 0;
+            for(var i=0;i<cases.size() ;i++){
+                if (cases[i].offsetTop > topOffset) {
+                    topOffset = cases[i].offsetTop;
+                }
+            }
+            window.scrollTo(0, topOffset);
+
+
+        } else {
+            // location.href="#wrapper";
+            window.scrollTo(0, 0);
+        }
+
+
     }
 }
 
