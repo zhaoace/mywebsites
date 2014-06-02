@@ -77,6 +77,7 @@ jQuery(document).ready(function() {
         click: function (){
             document.location.href=this.href;
             location.reload();
+            location.href="#wrapper";
         }
     });
 });
