@@ -3184,12 +3184,30 @@ span{
     background-color: #f0f0f0;
 
 }
-#online-survey table tr th.male{
+#online-survey table tr th.tier{
+    vertical-align: middle;
+    border:#cccccc 1px solid;
+    padding: 6px;
+    font-weight: 700;
+    background-color: #f2f0eb;
+}
+
+#online-survey table tr th.city{
     vertical-align: middle;
     border:#cccccc 1px solid;
     padding: 6px;
     font-weight: 700;
     background-color: #b2904b;
+    color: white;
+}
+
+
+#online-survey table tr th.male{
+    vertical-align: middle;
+    border:#cccccc 1px solid;
+    padding: 6px;
+    font-weight: 700;
+    background-color: #015f47;
     color: white;
 }
 #online-survey table tr th.female{
@@ -3200,7 +3218,6 @@ span{
     background-color: #015f47;
     color: white;
 }
-
 #online-survey table tr{
     border:#cccccc 1px solid;
     padding: 6px;
@@ -3210,7 +3227,6 @@ span{
     font-size: 14px;
     background-color: #b2904b;
     color: #FFFFFF;
-    /*text-align: center;*/
 }
 
 #online-survey table tr td {
@@ -3220,13 +3236,12 @@ span{
 #online-survey table tr td.city {
     border:#cccccc 1px solid;
     padding: 6px;
-    background-color: white;
-    text-align: center;
+    background-color:#f2f0eb;
 }
 #online-survey table tr td.male {
     border:#cccccc 1px solid;
     padding: 6px;
-    background-color:#f2f0eb;
+    text-align: center;
 }
 #online-survey table tr td.female {
     border:#cccccc 1px solid;
