@@ -11,6 +11,7 @@ function initTabs()
             {
                 if (links[j].className.indexOf("tab") != -1)
                 {
+
                     tabs.push(links[j]);
                     links[j].tabs = tabs;
                     var c = document.getElementById(links[j].href.substr(links[j].href.indexOf("#") + 1));
@@ -34,6 +35,7 @@ function initTabs()
                             }
                             this.parentNode.parentNode.className += " active";
                             c.style.display = "block";
+
                             return false;
                         }
                     }
@@ -41,9 +43,9 @@ function initTabs()
             }
         }
     }
+
+    //set a page goto tab after loading a new page.
     if (location.hash != "")  {
-
-
         // click a element to show the tab.
         var toTab = location.hash.substring(0,6);
         var isLv2Tab = (location.hash[6] != null);
@@ -52,8 +54,6 @@ function initTabs()
         if ( isLv2Tab ) {
             $("a[href='"+location.hash+"']").click();
         }
-
-
         //scroll to right place to show the screen.
         document.body.scrollTop=0;
         document.documentElement.scrollTop=0;
@@ -68,6 +68,18 @@ if (window.addEventListener){
 }
 else if (window.attachEvent && !window.opera)
     window.attachEvent("onload", initTabs);
+
+
+
+
+jQuery(document).ready(function() {
+    $(".footer-quick-links").find("ul").find("li").find("a").on({
+        click: function (){
+            document.location.href=this.href;
+            location.reload();
+        }
+    });
+});
 
 
 
