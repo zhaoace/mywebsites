@@ -2229,7 +2229,7 @@ input[type=submit], input[type=text], input[type=password], input[type=file], te
 
 
 .home-title h1{
-    padding-top: 48px;
+    padding-top: 44px;
     font:700 32px/42px Lato, Arial, Helvetica, sans-serif;
     color:#015f47;
 }
