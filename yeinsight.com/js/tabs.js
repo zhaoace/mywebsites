@@ -57,10 +57,12 @@ function initTabs()
         //scroll to header to show the screen.
 
 
-        var toCaseStudy = (location.hash.lastIndexOf("case_study") > -1 )
+        var toCaseStudy = (location.hash.lastIndexOf("case-study") > -1 ) ;
         if ( toCaseStudy ) {
             // location.href="#case-study";
-            var cases = $(".tab-content[style='display: block;']").find(".case-study");
+
+            var toCase = location.hash.substr(location.hash.lastIndexOf("case-study") );
+            var cases = $(".tab-content[style='display: block;']").find("."+toCase);
             var topOffset = 0;
             for(var i=0;i<cases.size() ;i++){
                 if (cases[i].offsetTop > topOffset) {
