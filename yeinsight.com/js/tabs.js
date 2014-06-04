@@ -1,4 +1,4 @@
-function initTabs()
+﻿function initTabs()
 {
     var sets = document.getElementsByTagName("ul");
     for (var i = 0; i < sets.length; i++)
