@@ -650,7 +650,7 @@ jQuery.onFontResize = (function($) {
         }
     };
 }(jQuery));
-clear inputs on focus
+// clear inputs on focus
 function initInputs() {
     PlaceholderInput.replaceByOptions({
         // filter options
