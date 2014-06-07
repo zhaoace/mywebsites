@@ -2654,11 +2654,15 @@ span{
     padding: 20px 25px 1px 25px;
 
 }
+
+
+.case-study2  {
+    background-color: #efefef;
+    margin-top: 45px;
+
+}
 .case-study .header {
     padding-bottom: 10px;
-
-
-
 }
 
 .case-study .header h1{
