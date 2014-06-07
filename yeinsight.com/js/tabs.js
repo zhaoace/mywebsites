@@ -73,8 +73,9 @@
 
 
         } else {
-            // location.href="#wrapper";
+
             window.scrollTo(0, 0);
+            location.hash="";
         }
 
 
